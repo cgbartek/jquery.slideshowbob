@@ -1,0 +1,57 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>jQuery.SlideshowBob Example</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body>
+
+    <div id="wrapper-thumbs">
+		<div id="thumbs"></div>
+    </div>
+
+    <div class="spacer"></div>
+
+    <div id="loader"></div>
+
+    <div id="wrapper">
+		<div id="thumbTip"></div>
+
+        <div id="header">
+        	<h1>Title of Slideshow</h1>
+			<h2>Subtitle</h2>
+        </div>
+
+        <div id="aside"></div>
+
+        <div id="article"></div>
+
+        <div class="clear"></div>
+        <div id="menu">
+            <div id="pos"></div>
+            <a href="#" id="btnThumbs">Thumbs</a>
+            <a href="#" id="btnFullscreen">Fullscreen</a>
+            <div class="clear"></div>
+        </div>
+
+        <div id="nav">
+            <a href="#" class="prev" title="Previous Slide">&lt;</a> <span id="navCount"></span> <a href="#" class="next" title="Next Slide">&gt;</a>
+            <a href="#" class="autoSlide" title="Toggle Auto Slide On/Off">►</a>
+            <div class="clear"></div>
+        </div>
+	</div>
+
+	<script src="js/vendor/jquery-1.8.2.min.js"></script>
+	<script>
+	var slideshow = [
+		{"image": "img/1.jpg","desc":"Ernest Goes Somewhere Cheap"},
+		{"image": "img/2.gif","desc":"*THWOK*<br><br>Urrrrrghrgh."},
+		{"image": "img/3.jpg","desc":"HMS Pinafore"}
+	];
+	</script>
+	<script src="js/jquery.slideshowbob.js"></script>
+    </body>
+</html>
